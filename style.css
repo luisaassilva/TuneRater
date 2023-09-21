@@ -1,0 +1,54 @@
+html
+{
+  height: 100%;
+  width: 100%;
+}
+header 
+{
+    background: #bab4a8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+body
+{
+    background: #ddd2ce;
+}
+.menu 
+{
+    display: flex;
+}
+.menu li 
+{
+    list-style: none; 
+    margin-left: 20px;
+}
+header a 
+{
+    text-decoration: none;
+    color: #454d40;
+}
+.square 
+{
+    /* Defina o tamanho do quadrado */
+    width: 450px;
+    height: 450px;
+    /* Defina a cor da borda */
+    border: 15px solid #bab4a8;
+    /* Defina a cor de fundo do quadrado */
+    background-color: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;;
+    font-size: 15px;
+    font-weight: bold;
+}
+.square-container 
+{
+    /* Centralize o quadrado */
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adicione margem superior para separá-lo do cabeçalho */
+}
