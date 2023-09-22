@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+header {
+    background-color: #BAB4A8;
+    color: #454D40;
+    padding: 10px 0;
+    display: flex; /* Tornar o header um contêiner flex */
+    justify-content: space-between; /* Espaço entre a logo e a navbar */
+    align-items: center;
+}
+
+.logo{
+    display: flex;   
+}
+
+.logo img {
+    width: 250px;   
+    margin-right: 20px; /* Espaço à direita do logotipo para separá-lo dos links */
+}
+
+.navbar {
+    display: flex; /* Tornar a navbar um contêiner flex */
+    justify-content: flex-end; /* Alinhar elementos à direita */
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #454D40;
+    font-weight: bold;
+}
+
+body
+{
+    font-family: 'Inter', sans-serif;
+    background: #ddd2ce;
+}
+
+.square 
+{
+    /* Defina o tamanho do quadrado */
+    width: 450px;
+    height: 450px;
+    /* Defina a cor da borda */
+    border: 15px solid #bab4a8;
+    /* Defina a cor de fundo do quadrado */
+    background-color: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.square h4 {
+    margin-left: 20px; /* Adicione a margem esquerda desejada */
+}
+
+.square-container 
+{
+    /* Centralize o quadrado */
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adicione margem superior para separá-lo do cabeçalho */
+}
